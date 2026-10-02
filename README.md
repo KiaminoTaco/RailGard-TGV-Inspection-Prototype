@@ -10,8 +10,7 @@
 
 ![Engineering Prototype](https://img.shields.io/badge/STATUS-ENGINEERING%20PROTOTYPE-0f172a?style=for-the-badge)
 ![Robotics](https://img.shields.io/badge/ROBOTICS-ROS%202-334155?style=for-the-badge)
-![Railway](https://img.shields.io/badge/DOMAIN-RAILWAY%20INSPECTION-475569?style=for-the-badge)
-![InnovAM](https://img.shields.io/badge/INNOVAM%2726-2nd%20PLACE-b45309?style=for-the-badge)
+![Railway](https://img.shields.io/badge/DOMAIN-RAILWAY%20INSPECTION-475569?style=for-the-badge) 
 
 </div>
 
