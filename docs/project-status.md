@@ -12,20 +12,3 @@
 | Communication architecture | Documented |
 | Industrial deployment | Not claimed |
 | Railway certification | Not claimed |
-
-## Implementation evidence
-
-As the repository grows, use one of the following evidence types for completed
-features:
-
-- source code;
-- CAD model;
-- electrical schematic;
-- PCB;
-- photograph;
-- measurement;
-- test result;
-- simulation result.
-
-A feature without evidence should be labelled as a concept, study or future
-development direction.
