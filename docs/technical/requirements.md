@@ -12,12 +12,3 @@ robot:
 - target movement speed discussed: approximately 1 m/s.
 
 These values are project study targets, not certification requirements.
-
-## Repository rule
-
-When a requirement is changed, record:
-
-- source;
-- revision;
-- reason for change;
-- measured/validated value, if available.
