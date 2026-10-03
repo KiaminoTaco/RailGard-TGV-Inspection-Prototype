@@ -5,15 +5,10 @@ TGV undercarriage areas.
 
 ## Before contributing
 
-Please keep the distinction between:
-
 - documented/implemented prototype elements;
 - engineering studies and calculations;
 - proposed architecture;
 - future development directions.
-
-Do not describe a proposed capability as implemented unless it is supported by
-code, hardware, test results, drawings, or other project evidence.
 
 ## Recommended contribution structure
 
@@ -29,7 +24,3 @@ When adding a subsystem, document:
 8. Results
 9. Known limitations
 
-## Sensitive information
-
-Never commit passwords, API keys, private credentials, certificates, or
-personal access tokens.
