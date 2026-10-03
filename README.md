@@ -233,8 +233,6 @@ Communication enables data exchange between the embedded controllers, sensors, a
 
 Depending on the implemented configuration, the project also explores:
 
-- MQTT
-- WebSocket
 - Serial communication
 
 ## Computing and Control
@@ -424,10 +422,6 @@ Potential development directions include:
 RailGard was developed within the **SafeTrack — Robot Autonome d’Inspection Sous-Caisse TGV** project in the context of **SIANA / InnovAM'26**.
 
 The project documentation records the following recognition:
-
-**2nd Place — Prix Innovation Arts et Métiers**
-
-The project provided an opportunity to work across several engineering disciplines and bring their contributions together in a physical prototype.
 
 ## Project Team
 
