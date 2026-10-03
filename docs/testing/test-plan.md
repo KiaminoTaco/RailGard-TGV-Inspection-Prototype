@@ -52,6 +52,3 @@ Record:
 - evidence;
 - corrective action.
 
-## Important
-
-Do not mark a test as passed without evidence.
