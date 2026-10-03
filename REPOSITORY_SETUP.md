@@ -18,13 +18,3 @@ git add .
 git commit -m "chore: initialize RailGard project structure"
 git push
 ```
-
-## Large files
-
-For large CAD or binary assets, consider Git LFS rather than committing very
-large files directly to normal Git history.
-
-## Important
-
-This package does not contain fabricated source code, CAD models, PCB files,
-or test results. Those should come from the actual project files.
