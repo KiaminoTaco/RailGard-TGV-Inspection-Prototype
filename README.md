@@ -1,331 +1,266 @@
-# RailGard
-### TGV Undercarriage Inspection — Multidisciplinary Engineering Prototype
+# RailGard — TGV Undercarriage Inspection Prototype
 
 <p align="center">
-  <img src="media/images/railgard-prototype-main.png"
-       alt="RailGard physical prototype"
-       width="900">
+  <strong>A multidisciplinary engineering project for robotic railway inspection</strong>
 </p>
 
 <p align="center">
-  <strong>SafeTrack — Robot Autonome d’Inspection Sous-Caisse TGV</strong>
+  <img src="media/images/railgard-prototype-main.PNG" alt="RailGard physical prototype" width="850">
 </p>
 
 <p align="center">
-  Mechanical Engineering · Robotics · Embedded Systems · Electronics · Inspection
+  <a href="https://github.com/KiaminoTaco/RailGard-TGV-Inspection-Prototype">
+    <img src="https://img.shields.io/badge/Project-RailGard-1565C0?style=for-the-badge" alt="Project RailGard">
+  </a>
+  <img src="https://img.shields.io/badge/Domain-Railway%20Robotics-455A64?style=for-the-badge" alt="Railway Robotics">
+  <img src="https://img.shields.io/badge/Status-Engineering%20Prototype-00897B?style=for-the-badge" alt="Engineering Prototype">
+  <img src="https://img.shields.io/badge/Application-TGV%20Inspection-6A1B9A?style=for-the-badge" alt="TGV Inspection">
+</p>
+
+<p align="center">
+  <a href="https://github.com/KiaminoTaco/RailGard-TGV-Inspection-Prototype/issues">
+    <img src="https://img.shields.io/github/issues/KiaminoTaco/RailGard-TGV-Inspection-Prototype?style=flat-square&label=Issues" alt="GitHub issues">
+  </a>
+  <a href="https://github.com/KiaminoTaco/RailGard-TGV-Inspection-Prototype/commits/main">
+    <img src="https://img.shields.io/github/last-commit/KiaminoTaco/RailGard-TGV-Inspection-Prototype?style=flat-square&label=Last%20commit" alt="Last commit">
+  </a>
+  <a href="https://github.com/KiaminoTaco/RailGard-TGV-Inspection-Prototype">
+    <img src="https://img.shields.io/github/repo-size/KiaminoTaco/RailGard-TGV-Inspection-Prototype?style=flat-square&label=Repository%20size" alt="Repository size">
+  </a>
 </p>
 
 ---
 
-## 1. Project Overview
+## Project Overview
 
-**RailGard** is a multidisciplinary engineering prototype developed around the concept of a robotic platform for **TGV undercarriage inspection**.
+**RailGard** is a multidisciplinary engineering prototype developed as part of **SafeTrack — Robot Autonome d’Inspection Sous-Caisse TGV**.
 
-The project brings together mechanical design, robotic actuation, embedded electronics, sensing, communication, data acquisition and inspection-oriented software within one electromechanical system.
+The project explores the design and integration of a robotic platform intended to support the inspection of the lower structure and undercarriage areas of high-speed trains.
 
-The work covers the development of the mobile structure, mechanical integration, a multi-axis robotic subsystem, embedded control platforms, motors and drivers, sensing technologies, communication interfaces and software experiments for image acquisition and inspection.
+RailGard brings together several engineering disciplines, including mechanical design, robotics, embedded electronics, sensor integration, communication systems, computer vision, and software development.
 
-RailGard was developed in the context of **SafeTrack — Robot Autonome d’Inspection Sous-Caisse TGV**, with the broader objective of studying how robotic and embedded technologies can support railway inspection activities in difficult-to-access areas.
+The objective is to develop and demonstrate a physical robotic prototype that provides a foundation for further experimentation in railway inspection technologies.
 
-> **Project status:** RailGard is an **engineering prototype / experimental platform**. It is not presented as a certified railway inspection system, an approved railway product, or a replacement for certified railway inspection procedures.
+> **Project scope:** RailGard is an experimental engineering prototype. It is not a certified railway inspection system and is not intended to replace approved railway inspection procedures.
 
----
+## Physical Prototype
 
-## 2. Prototype Demonstration
+The following photographs show the current physical prototype.
 
-The most important part of this repository is the **physical prototype**. The images and demonstration video below are intended to document the actual robot, its mechanical structure and its developed subsystems.
-
-### Prototype
+### Main View
 
 <p align="center">
-  <img src="media/images/railgard-prototype-front.png"
-       alt="RailGard prototype — front view"
-       width="420">
-
-  <img src="media/images/railgard-prototype-side.png"
-       alt="RailGard prototype — side view"
-       width="420">
+  <img src="media/images/railgard-prototype-main.PNG" alt="Main view of the RailGard prototype" width="850">
 </p>
+
+### Side View
 
 <p align="center">
-  <img src="media/images/railgard-prototype-robotic-arm.png"
-       alt="RailGard prototype — robotic arm"
-       width="420">
-
-  <img src="media/images/railgard-prototype-electronics.png"
-       alt="RailGard prototype — electronics"
-       width="420">
+  <img src="media/images/railgard-prototype-side.PNG" alt="Side view of the RailGard prototype" width="850">
 </p>
 
-> Replace the example image filenames above with the actual photographs of the prototype stored in `media/images/`.
+## Prototype Demonstration
 
-### Video Demonstration
+The repository includes a video demonstration of the physical prototype.
 
-The prototype demonstration video is stored directly in the repository:
+### RailGard — Prototype Demonstration
 
-```text
-media/
-└── videos/
-    └── railgard-prototype-demo.mp4
-```
-
-For the README, the following HTML5 video block is included:
-
-<video controls width="900" preload="metadata">
+<video controls width="850" preload="metadata">
   <source src="media/videos/railgard-prototype-demo.mp4" type="video/mp4">
-  Your browser does not support embedded video. [Open the MP4 demonstration](media/videos/railgard-prototype-demo.mp4).
+  Your browser does not support embedded video. Use the direct link below to view the demonstration.
 </video>
 
-**[▶ Open the prototype demonstration video](media/videos/railgard-prototype-demo.mp4)**
+[**Open the RailGard prototype demonstration video**](media/videos/railgard-prototype-demo.mp4)
 
-> **GitHub note:** GitHub's handling of repository-hosted MP4 files can vary between the README renderer, browser and mobile application. If the inline player is not rendered, the link above still provides direct access to the MP4. GitHub officially supports MP4 media uploads, with file-size limits depending on the account type. H.264 is recommended for broad browser compatibility. citeturn0search5
-
----
-
-## 3. Project Objectives
-
-The project was developed around the following engineering objectives:
-
-- Design a robotic platform adapted to the constraints of TGV undercarriage inspection.
-- Develop a mechanically stable mobile structure.
-- Study and integrate a multi-axis robotic arm.
-- Integrate embedded computing and control platforms.
-- Acquire information from cameras and distance/environmental sensors.
-- Develop communication between embedded subsystems.
-- Explore inspection-oriented image acquisition and processing.
-- Integrate motors, drivers, power supply and control electronics.
-- Establish a technical basis for further testing, validation and development.
-
-The project is therefore approached as a **system-integration problem**, where mechanical, electrical, embedded and software subsystems must operate as a coherent platform.
+*Note: GitHub may not render repository-hosted MP4 files as an embedded video player in every view. The direct link above provides an alternative.*
 
 ---
 
-## 4. Engineering Scope
+## Project Objectives
 
-RailGard combines several engineering disciplines:
+The main objectives of RailGard are to:
 
-| Engineering domain | Main contribution |
+- Design and develop a mobile robotic platform for experimental railway inspection.
+- Integrate mechanical, electronic, and software subsystems into a physical prototype.
+- Explore sensor-based inspection and environmental perception.
+- Investigate robotic motion, positioning, and actuation.
+- Develop communication between embedded systems and high-level computing hardware.
+- Explore computer vision and image-processing techniques for inspection assistance.
+- Establish a modular platform for future testing and development.
+
+## Engineering Architecture
+
+RailGard is organized around several interconnected engineering subsystems.
+
+| Subsystem | Main role |
 |---|---|
-| **Mechanical Engineering** | Chassis, CAD, assemblies, dimensioning, stability and structural studies |
-| **Robotics** | Multi-axis robotic arm, kinematics, torque studies and actuator integration |
-| **Embedded Systems** | Raspberry Pi 5, Jetson Nano, ESP32, Arduino Mega and Teensy-based concepts |
-| **Electronics** | Sensors, motor drivers, wiring, power and communication interfaces |
-| **Software** | Python, C++, MATLAB/Simulink and inspection-oriented processing |
-| **Communication** | Wi-Fi, LoRa, UART, I2C, SPI and GPIO |
-| **System Integration** | Integration of mechanical, electrical, embedded and robotic subsystems |
+| Mechanical engineering | Chassis, structural elements, mechanical interfaces and mounting |
+| Robotics | Motion, actuation, positioning and control |
+| Embedded electronics | Microcontrollers, motor drivers and sensor interfaces |
+| Sensing | Data acquisition and environmental perception |
+| Computer vision | Image acquisition and visual inspection processing |
+| Communication | Data exchange between system components |
+| Software | Control, processing and inspection-related functions |
+| System integration | Coordination of the complete prototype |
 
----
+The system architecture is documented separately:
 
-## 5. Mechanical Design
+- `docs/architecture/system-architecture.md`
+- `docs/architecture/Architecture_Globale_du_Systeme_de_Commande.png`
 
-Mechanical engineering is a central part of RailGard.
+## Mechanical Design
 
-The development work includes:
+The mechanical subsystem provides the physical structure of the robotic platform and supports the integration of its different components.
 
-- mobile chassis architecture;
-- aluminium structural design;
-- 3D CAD modelling;
-- mechanical assemblies;
-- engineering drawings;
-- mechanical dimensioning;
-- Resistance of Materials (RDM) studies;
-- stability considerations;
-- mass estimation;
-- centre-of-gravity considerations;
-- integration of motors and actuators.
+The design work covers:
 
-### Mechanical Documentation
+- Mechanical architecture and chassis design.
+- Structural components and mechanical interfaces.
+- Motor and actuator integration.
+- Sensor mounting and positioning.
+- Integration of robotic mechanisms.
+- Mechanical calculations and design considerations.
 
-The mechanical documentation is organized as:
+Engineering and CAD tools associated with the project include:
 
-```text
-mechanical/
-├── cad/
-├── drawings/
-└── calculations/
-```
+- CATIA V5
+- SolidWorks
+- OpenSCAD
+- PyCATIA
+- RDM calculation tools
 
-A more detailed drawing structure can be used as the project grows:
+## Robotic Subsystem
 
-```text
-mechanical/
-└── drawings/
-    ├── assembly/
-    ├── parts/
-    ├── dimensions/
-    ├── exploded_views/
-    ├── pdf/
-    └── images/
-```
+The robotic subsystem concerns the movement and positioning functions of the platform.
 
-The repository can therefore contain both the original engineering drawings and the supporting calculations used during development.
+The project explores:
 
----
+- Stepper motor actuation.
+- DC motor control.
+- Servo actuation.
+- Geared motor systems.
+- Robotic mechanisms.
+- Kinematic concepts.
+- Motion and positioning control.
 
-## 6. Robotic Subsystem
+The selected actuation and control methods depend on the requirements of each subsystem.
 
-A **multi-axis robotic arm** forms part of the prototype concept.
+## Embedded Electronics
 
-The engineering study covers:
+The embedded electronics connect the sensing, actuation, communication, and computing components.
 
-- multi-axis mechanical configuration;
-- kinematic analysis;
-- actuator selection and integration;
-- torque calculations;
-- mechanical interfaces;
-- robotic control concepts;
-- integration with the mobile platform.
+The project documentation covers platforms and technologies such as:
 
-The robotic subsystem is intended to extend the inspection capability of the platform by providing controlled access to areas that may not be reachable by the mobile base alone.
+- Raspberry Pi 5
+- Jetson Nano
+- ESP32
+- Arduino Mega
+- Teensy
 
----
+Electronic interfaces and motor-control components include:
 
-## 7. Embedded Electronics
-
-The project includes several embedded computing and control platforms.
-
-### Raspberry Pi 5
-
-The Raspberry Pi 5 is associated with higher-level functions such as:
-
-- communication coordination;
-- sensor-data processing;
-- camera/image processing;
-- higher-level control and decision logic;
-- communication with embedded controllers;
-- local data handling.
-
-### Other Embedded Controllers
-
-The technical work also discusses or uses:
-
-- **ESP32**
-- **Arduino Mega**
-- **Teensy**
-- **Jetson Nano**
-
-These platforms correspond to different stages or subsystem-level approaches documented during the project.
-
-Because the prototype evolved through several engineering stages, the repository deliberately distinguishes between:
-
-- architecture studied in the technical work;
-- experimental implementations;
-- functions actually implemented in committed hardware and source code.
-
----
-
-## 8. Sensors and Inspection
-
-The documented prototype architecture includes several sensing technologies:
-
-- **Raspberry Pi Camera Module 3**
-- **RPLIDAR A3M1**
-- **SRF10 ultrasonic sensor**
-- **LM35 temperature sensor**
-- **Sharp GP2Y0A02YK0F infrared distance sensor**
-- **IMU**
-- **LoRa communication modules**
-
-These elements support:
-
-- image acquisition;
-- distance measurement;
-- environmental sensing;
-- localization/perception concepts;
-- communication;
-- inspection-oriented data acquisition.
-
-### Wiring Documentation
-
-Electrical and sensor wiring diagrams are organized under:
-
-```text
-electronics/wiring/
-```
-
-Examples include:
-
-```text
-electronics/wiring/diagrams/
-├── WIR-001_RaspberryPi_UltrasonicSensor.png
-├── WIR-002_RaspberryPi_LM35_TemperatureSensor.png
-└── WIR-003_Teensy4.1_RFM9xW_LoRa_Transceiver.png
-```
-
----
-
-## 9. Actuation
-
-The documented actuation system includes:
-
-- stepper motors;
-- DC motors;
-- servomotors;
-- geared motors;
-- A4988 stepper drivers;
+- A4988 stepper motor drivers.
 - L298N motor drivers.
+- GPIO.
+- UART.
+- I²C.
+- SPI.
 
-The general actuation chain is:
+The exact distribution of functions between boards should be understood from the implemented hardware configuration and corresponding technical documentation.
 
-```text
-Embedded Controller
-        │
-        ▼
-   Motor Driver
-        │
-        ▼
- Motor / Actuator
-        │
-        ▼
-Mechanical Subsystem
-```
+## Sensors and Inspection
 
-The exact motor and driver allocation should always be verified against the corresponding electrical drawings and committed source code.
+The project includes or investigates sensing technologies intended to support data acquisition and inspection-related tasks.
 
----
+These include:
 
-## 10. Communication
+- Raspberry Pi Camera Module 3.
+- RPLIDAR A3M1.
+- SRF10 ultrasonic sensor.
+- LM35 temperature sensor.
+- Sharp GP2Y0A02YK0F distance sensor.
+- Inertial measurement unit (IMU).
+- LoRa communication modules.
 
-The project documentation discusses several communication and interface technologies:
+The sensing subsystem supports areas such as:
 
-- Wi-Fi;
-- LoRa;
-- UART;
-- I2C;
-- SPI;
-- GPIO;
-- MQTT/WebSocket concepts;
-- Bluetooth concepts.
+- Distance measurement.
+- Environmental perception.
+- Temperature monitoring.
+- Motion and orientation measurement.
+- Image acquisition.
+- Object detection and visual analysis.
 
-These interfaces are associated with communication between controllers, sensors, actuators and external systems.
+## Computer Vision and Image Processing
 
-The repository distinguishes between technologies that were **studied**, technologies used experimentally, and protocols that are actually implemented in the committed prototype.
+The computer vision component explores image-based methods that may support inspection tasks.
 
----
+The associated development areas include:
 
-## 11. Software and Inspection Processing
+- Image acquisition.
+- Image comparison.
+- Object detection.
+- Visual anomaly detection.
+- Inspection data processing.
 
-The project includes software experiments related to image acquisition, processing, communication and inspection.
-
-Documented software areas include:
-
-- Raspberry Pi camera image acquisition;
-- image comparison;
-- OpenCV-based image-difference detection;
-- thresholding and contour analysis;
-- LoRa image transmission;
-- Haar-cascade based object detection;
-- TensorFlow-based anomaly-detection workflows.
-
-### Reported Code
-
-Code represented directly in the technical documentation is preserved under:
+The software repository is organized into dedicated areas for vision, artificial intelligence, and communication.
 
 ```text
-report-code/
+src/
+├── ai/
+├── communication/
+└── vision/
 ```
 
-with examples such as:
+## Communication Systems
+
+Communication enables data exchange between the embedded controllers, sensors, and high-level computing systems.
+
+### Wired interfaces
+
+- UART
+- I²C
+- SPI
+- GPIO
+
+### Wireless technologies
+
+- Wi-Fi
+- LoRa
+- Bluetooth
+
+### Software communication concepts
+
+Depending on the implemented configuration, the project also explores:
+
+- MQTT
+- WebSocket
+- Serial communication
+
+## Computing and Control
+
+The high-level computing architecture includes platforms intended to coordinate processing, sensing, communication, and control functions.
+
+The project documentation identifies the Raspberry Pi 5 as a high-level computing platform and describes embedded controller platforms such as ESP32 and other microcontrollers.
+
+For the detailed architecture and component relationships, refer to:
+
+`docs/architecture/system-architecture.md`
+
+## Software Development
+
+Software development supports the platform's control, communication, image acquisition, and inspection-related processing.
+
+The repository separates software by function:
+
+```text
+src/
+├── ai/
+├── communication/
+└── vision/
+```
+
+Report-related scripts are organized separately:
 
 ```text
 report-code/
@@ -336,60 +271,45 @@ report-code/
 └── cloud_anomaly_detection_report.py
 ```
 
-### Development Source
+These filenames represent the proposed report-code organization; retain only the scripts that are actually present in the repository.
 
-Organized development implementations are maintained under:
+## System Integration
+
+A central aspect of RailGard is the integration of multiple engineering disciplines into one physical platform.
+
+The overall concept brings together:
 
 ```text
-src/
-├── ai/
-├── communication/
-└── vision/
+             Mechanical Structure
+                      |
+                      v
+               Actuation System
+                      |
+                      v
+              Embedded Controllers
+                      |
+          +-----------+-----------+
+          |           |           |
+          v           v           v
+        Sensors   Communication  Interfaces
+          |           | 
+          +-----------+
+                      |
+                      v
+             High-Level Computing
+                      |
+                      v
+           Inspection and Processing
 ```
 
-This separation makes it possible to preserve the documented engineering work while keeping the development source structured for future iterations.
+This integration provides a basis for experimenting with the interaction between mechanical, electronic, robotic, and software components.
 
----
+## Repository Structure
 
-## 12. System Integration
-
-RailGard follows an interdisciplinary development workflow:
+The repository is organized to keep the different engineering areas separate and make technical documentation easier to navigate.
 
 ```text
-Engineering Requirements
-          │
-          ▼
-    System Design
-          │
-          ├──────────────► Mechanical Design
-          │
-          ├──────────────► Electronics
-          │
-          ├──────────────► Embedded Systems
-          │
-          └──────────────► Robotics & Control
-                                 │
-                                 ▼
-                         Subsystem Integration
-                                 │
-                                 ▼
-                           Physical Prototype
-                                 │
-                                 ▼
-                        Testing & Demonstration
-                                 │
-                                 ▼
-                          Further Development
-```
-
-The objective is not simply to develop isolated components, but to investigate how the different engineering disciplines can be integrated into one functional prototype.
-
----
-
-## 13. Repository Structure
-
-```text
-RailGard/
+RailGard-TGV-Inspection-Prototype/
 │
 ├── README.md
 │
@@ -426,216 +346,131 @@ RailGard/
 │
 ├── media/
 │   ├── images/
+│   │   ├── railgard-prototype-main.PNG
+│   │   └── railgard-prototype-side.PNG
+│   │
 │   └── videos/
 │       └── railgard-prototype-demo.mp4
 │
 └── tests/
 ```
 
----
+*This structure describes the intended organization of the project. Some directories may be expanded as additional files and technical documentation are added.*
 
-## 14. Prototype Documentation
+## Technical Stack
 
-The `media/` directory is dedicated to documenting the physical development of the robot.
-
-Recommended structure:
-
-```text
-media/
-├── images/
-│   ├── railgard-prototype-main.png
-│   ├── railgard-prototype-front.png
-│   ├── railgard-prototype-side.png
-│   ├── railgard-prototype-robotic-arm.png
-│   └── railgard-prototype-electronics.png
-│
-└── videos/
-    └── railgard-prototype-demo.mp4
-```
-
-The image section can later be expanded with:
-
-- prototype photographs;
-- different views of the robot;
-- robotic-arm photographs;
-- electronics photographs;
-- assembly stages;
-- testing photographs;
-- CAD renders;
-- experimental results.
-
-This keeps the README visually focused on the **physical prototype**, while detailed technical drawings remain in their dedicated engineering directories.
-
----
-
-## 15. Project Status
-
-RailGard is documented as an **engineering prototype**.
-
-| Area | Status |
+| Area | Technologies and tools |
 |---|---|
-| Mechanical architecture | Engineering development |
-| Chassis design | Developed / documented |
-| Robotic arm | Studied / integrated |
-| Embedded architecture | Developed across multiple subsystems |
-| Sensors | Integrated / studied according to subsystem |
-| Motors and drivers | Engineering development |
-| Communication | Engineering development |
-| Inspection software | Experimental / development |
-| Physical prototype | Prototype |
-| Industrial deployment | Not claimed |
-| Railway certification | Not claimed |
+| Mechanical design | CATIA V5, SolidWorks, OpenSCAD, PyCATIA |
+| Embedded systems | Raspberry Pi 5, Jetson Nano, ESP32, Arduino Mega, Teensy |
+| Programming | Python, C++, MATLAB |
+| Modelling and control | Simulink, kinematics, motion control |
+| Robotics | ROS 2 concepts, motors, actuators and positioning |
+| Electronics | Proteus, Altium Designer, motor drivers and sensors |
+| Communication | UART, I²C, SPI, Wi-Fi, LoRa, Bluetooth |
 
-These descriptions are intentionally conservative. A concept, experiment or documented architecture should not be interpreted as a fully validated industrial capability unless the repository provides corresponding implementation and validation evidence.
+The technologies listed above reflect the project scope and documented development environment; their presence does not imply that every tool or platform is integrated into the current physical prototype.
 
----
+## Project Status
 
-## 16. Scope and Limitations
+RailGard is an engineering prototype bringing together mechanical design, robotic actuation, embedded electronics, sensing, communication, computing, and software development.
 
-RailGard is an **experimental engineering prototype**.
+The current repository documents the physical prototype and its supporting engineering work. Further development can focus on:
 
-The project does not claim that the current prototype:
+- Mechanical refinement and robustness.
+- Improved motion and positioning control.
+- Sensor integration and calibration.
+- Electrical and power-system integration.
+- Computer vision and inspection algorithms.
+- Communication reliability.
+- System-level testing and validation.
 
-- is deployed on operational TGV trains;
-- is certified for railway operation;
-- is approved for industrial deployment;
-- replaces certified railway inspection procedures;
-- has completed every validation required for real-world railway operation;
-- constitutes a complete autonomous railway inspection solution.
+## Future Development
 
-Some technologies and architectures documented in the project represent engineering studies, experimental implementations or possible future development.
+Potential development directions include:
 
-This distinction is important when interpreting the hardware, software, communication protocols and autonomous functions documented in this repository.
+### Mechanical engineering
 
----
+- Further chassis refinement.
+- Improved mechanical robustness.
+- Improved sensor mounting.
+- Continued development of robotic mechanisms.
 
-## 17. Future Development
+### Robotics and control
 
-Potential future development includes:
+- More precise motion control.
+- Improved positioning.
+- Autonomous navigation research.
+- Further kinematic development.
 
-- further mechanical optimisation;
-- refinement of the robotic arm;
-- improved actuator control;
-- expanded sensor integration;
-- improved communication between subsystems;
-- more extensive image-processing validation;
-- additional anomaly-detection experiments;
-- improved autonomous behaviour;
-- additional testing scenarios;
-- improved inspection data acquisition;
-- further study of railway and industrial feasibility.
+### Electronics
 
-These items are **development directions**, not claims about capabilities already validated by the current prototype.
+- PCB integration.
+- Improved power distribution.
+- More organized wiring.
+- Electrical protection and reliability improvements.
 
----
+### Inspection and software
 
-## 18. Project Recognition
+- Further image-processing development.
+- Improved object detection.
+- Automated anomaly-detection research.
+- Sensor-data fusion.
+- Data logging and monitoring.
+- Further exploration of ROS 2 integration.
 
-The SafeTrack project was developed in the **SIANA / InnovAM'26** context and is documented as having received:
+## Academic Context and Recognition
+
+RailGard was developed within the **SafeTrack — Robot Autonome d’Inspection Sous-Caisse TGV** project in the context of **SIANA / InnovAM'26**.
+
+The project documentation records the following recognition:
 
 **2nd Place — Prix Innovation Arts et Métiers**
 
-The project brings together work in:
+The project provided an opportunity to work across several engineering disciplines and bring their contributions together in a physical prototype.
 
-- mechanical engineering;
-- robotics;
-- embedded systems;
-- electronics;
-- automation;
-- electromechanical integration;
-- railway-oriented engineering.
+## Project Team
 
----
-
-## 19. Project Team
+The project team consists of:
 
 - **Aymane El Haoudar**
 - **Mohamed Amine Mohib**
 - **Yassine Benkhlouk**
 - **Nassim Bouziki**
 
----
+## Scope and Limitations
 
-## 20. Technical Stack
+RailGard is an experimental engineering prototype intended for development, demonstration, and research-oriented testing.
 
-### Mechanical Engineering
+It should not be interpreted as a certified railway inspection system or as a replacement for approved railway inspection procedures.
 
-`CATIA V5` · `SolidWorks` · `OpenSCAD` · `PyCATIA` · `RDM`
+Any future real-world railway application would require appropriate engineering validation, safety assessment, reliability testing, and compliance with applicable railway requirements.
 
-### Embedded Systems
+## Repository Media
 
-`Raspberry Pi 5` · `Jetson Nano` · `ESP32` · `Arduino Mega` · `Teensy`
+The current prototype media files are:
 
-### Programming
-
-`Python` · `C++` · `MATLAB` · `Simulink`
-
-### Robotics
-
-`ROS 2` · `Stepper Motors` · `Servomotors` · `Kinematics` · `Control`
-
-### Electronics and Simulation
-
-`Proteus` · `Altium Designer` · `Motor Drivers` · `Sensors` · `LoRa`
-
----
-
-## 21. Academic and Engineering Perspective
-
-RailGard documents the development of a multidisciplinary robotic prototype rather than a collection of independent files.
-
-The repository connects:
+**Images**
 
 ```text
-Mechanical Design
-       │
-       ▼
-Electronics & Power
-       │
-       ▼
-Embedded Computing
-       │
-       ▼
-Sensing & Communication
-       │
-       ▼
-Software & Data Processing
-       │
-       ▼
-Robotics & Control
-       │
-       ▼
-Physical Prototype
-       │
-       ▼
-Testing & Demonstration
+media/images/railgard-prototype-main.PNG
+media/images/railgard-prototype-side.PNG
 ```
 
-The objective of this repository is to make the engineering process traceable and understandable for engineers, researchers, students and future contributors who may want to study, reproduce or extend the work.
-
----
-
-## 22. Documentation
-
-Additional technical documentation is available in:
+**Video**
 
 ```text
-docs/
+media/videos/railgard-prototype-demo.mp4
 ```
 
-including the system architecture documentation:
+## Closing
 
-[System Architecture](docs/architecture/system-architecture.md)
+RailGard brings together mechanical engineering, robotics, embedded electronics, sensing, communication, and software development in a single multidisciplinary prototype.
 
-Mechanical, electrical, wiring and source-code documentation should be consulted together when analysing a particular subsystem.
-
----
+The project represents an exploration of how integrated robotic technologies can contribute to the development of future railway inspection solutions.
 
 <p align="center">
-  <strong>RailGard</strong><br>
-  TGV Undercarriage Inspection — Engineering Prototype
-</p>
-
-<p align="center">
-  <em>Design · Integration · Experimentation · Testing</em>
+  <strong>RailGard — TGV Undercarriage Inspection Prototype</strong>
+  <br>
+  Mechanical Engineering | Robotics | Embedded Systems | Electronics | Computer Vision
 </p>
