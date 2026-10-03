@@ -36,5 +36,3 @@ electronics/
 - Communication modules
 - Connector/pinout drawings
 - PCB schematics and layouts
-
-Only put a document in a category if you actually have that document.
