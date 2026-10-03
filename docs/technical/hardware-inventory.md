@@ -20,6 +20,3 @@ The following components are documented in the project technical material.
 | Actuation | Servomotors |
 | Actuation | Geared motors |
 | Inertial sensing | IMU |
-
-This inventory is derived from the technical dossier. Update it when the
-actual prototype BOM is available.
