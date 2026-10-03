@@ -74,5 +74,3 @@ The dossier describes communication using combinations of:
 - GPIO;
 - MQTT/WebSocket/Bluetooth concepts for interfaces.
 
-The final implementation should document only the protocols actually used in
-the committed prototype.
