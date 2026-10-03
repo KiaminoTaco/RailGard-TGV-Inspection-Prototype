@@ -14,10 +14,3 @@ TGV trainsets.
 5. Associate detected information with a location.
 6. Communicate information to an operator/interface.
 7. Generate inspection information or a report where implemented.
-
-## Important distinction
-
-The technical dossier describes image comparison, object/anomaly detection
-and machine-learning/cloud processing concepts. These should be treated as
-conceptual or development elements unless corresponding source code and test
-evidence are committed.
